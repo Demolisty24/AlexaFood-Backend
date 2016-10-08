@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\MLH-Admin\Desktop\chefalexa\venv"
+set "VIRTUAL_ENV=C:\Users\MLH-Admin\Desktop\AlexaFood-Backend\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
