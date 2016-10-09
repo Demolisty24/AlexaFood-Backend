@@ -27,7 +27,7 @@ def extract_ingredient():
   	print(recipe_list.json())
   	for dicts in recipe_list.json():
   		id_search[dicts["title"].encode("utf-8")] = dicts["id"]
-  		other_recipt["recipes"].append(dicts["title"])
+  		other_recipt["recipes"].append(dicts["title"].encode("utf-8"))
   	del other_recipt["recipes"][0]
   	other_recipt["recipes"] = " , ".join(other_recipt["recipes"])
 
