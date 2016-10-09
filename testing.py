@@ -106,6 +106,7 @@ print b
 '''
 
 #testing case
+'''
 import requests
 GET_URL = "http://127.0.0.1:5000/harambe/extract_ingredient"
 GET_DATA = {
@@ -113,10 +114,61 @@ GET_DATA = {
 }
 r = requests.get(GET_URL, params=GET_DATA)
 #print r.text
-
+'''
 #workable list of receipe
 '''
 "chow_mein_noodles"
 "chicken risotto"
 
 '''
+lmafsfda = {"your mom": ["fdsafas", "dfafd","dfasdfas"]}
+msdafdsa = {"your siste": ["is hot", "sexy"], "your dad":["buff","stronk"]}
+msdafdsa["your siste"] = " ".join(msdafdsa["your siste"])
+print msdafdsa.update(lmafsfda)
+print lmafsfda
+print(msdafdsa)
+print "*"*100
+m = {"dish1":4114, "dish2":12421, "dish3":51251,"dish4":72353,"dish5":125609}
+print(m)
+k = m
+print(k)
+print("New Test 2")
+std = {"testCase":[]}
+i=0
+print(m)
+for l in m:
+  print(l)
+  std["testCase"].append(m.keys()[i])
+  i+=1
+print(std)
+del std["testCase"][0]
+print std
+
+
+del k[k.keys()[2]]
+print("Case 1:")
+for l in k.keys():
+  print(k[l])
+print("Case 2:")
+print()
+del k[k.keys()[0]]
+for l in k.keys():
+  print(k[l])
+print(k)
+
+print("New Test")
+other_recipt = {"some": []}
+other_recipt["some"].append("your mom")
+print other_recipt
+other_recipt["some"].append("your dad")
+print other_recipt
+
+print("New Test 2")
+std = {"testCase":[]}
+i=0
+print(m)
+for l in m:
+  print(l)
+  std["testCase"].append(m.keys()[i])
+  i+=1
+print(std)
