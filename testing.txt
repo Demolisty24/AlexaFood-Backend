@@ -1,0 +1,5 @@
+[{'image': 'https://spoonacular.com/cdn/ingredients_100x100/green-bell-pepper.jpg', 'id': 11333, 'name': 'green pepper'}, {'image': 'https://spoonacular.com/cdn/ingredients_100x100/mayonnaise.jpg', 'id': 4025, 'name': 'mayonnaise'}, {'image': 'https://spoonacular.com/cdn/ingredients_100x100/sour-cream.jpg', 'id': 1056, 'name': 'sour cream'}, {'image': 'https://spoonacular.com/cdn/ingredients_100x100/pimento.jpg', 'id': 11943, 'name': 'pimiento'}, {'image': 'https://spoonacular.com/cdn/ingredients_100x100/cashews.jpg', 'id': 12087, 'name': 'cashews'}, {'image': 'https://spoonacular.com/cdn/ingredients_100x100/salt.jpg', 'id': 2047, 'name': 'salt'}, {'image': 'https://spoonacular.com/cdn/ingredients_100x100/udon-noodles.png', 'id': 93803, 'name': 'chow mein noodles'}]
+Instructions: 
+['Place tuna in a large bowl; set aside. In another large bowl, combine the mayonnaise, cashews, onions, pimientos, green pepper, sour cream, vinegar and salt.', 'Pour over tuna and toss to coat.', 'Serve with chow mein noodles.']
+Ingredients: 
+['green pepper', 'mayonnaise', 'sour cream', 'pimiento', 'cashews', 'salt', 'chow mein noodles']
